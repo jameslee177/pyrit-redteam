@@ -1,9 +1,9 @@
-# PyRIT Red Team Scripts (Single-turn + Multi-turn)
+# PyRIT Red Team Codes (Single-turn + Multi-turn)
 
-This repo contains two interactive Python scripts that run AI red teaming tests using **Microsoft PyRIT** (Python Risk Identification Tool for generative AI).
+This repo contains two interactive Python codes that run AI red teaming tests using **Microsoft PyRIT** (Python Risk Identification Tool for generative AI).
 
-- **Single-turn script**: quick, one-shot style red teaming
-- **Multi-turn script**: Crescendo, TAP (Tree of Attacks with Pruning), Violent Durian strategy, etc.
+- **Single-turn code**: quick, one-shot style red teaming
+- **Multi-turn code**: Crescendo, TAP (Tree of Attacks with Pruning), Violent Durian strategy, etc.
 
 > ⚠️ Use responsibly. Only test systems you own or have explicit permission to test.
 
@@ -11,8 +11,9 @@ This repo contains two interactive Python scripts that run AI red teaming tests 
 
 ## 1) Prerequisites
 
-- Ubuntu 20.04+ (or equivalent Linux)
-- Python **3.10+** (3.11/3.12 also OK in many environments)
+- Ubuntu 24.04+ (tested)
+- 4 x CPU / 8GB+ Memory (tested)
+- Python **3.10+**
 - `git`
 - API access to an LLM endpoint (OpenAI / Azure OpenAI / Ollama / custom OpenAI-compatible)
 
