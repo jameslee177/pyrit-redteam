@@ -46,7 +46,42 @@ pip install pyrit
 Confirm installation:
 ```
 pyrit_shell
-(exit)
+```
+```
+╔══════════════════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                              ║
+║                       ██████╗ ██╗   ██╗██████╗ ██╗████████╗                                  ║
+║                       ██╔══██╗╚██╗ ██╔╝██╔══██╗██║╚══██╔══╝                                  ║
+║                       ██████╔╝ ╚████╔╝ ██████╔╝██║   ██║                                     ║
+║                       ██╔═══╝   ╚██╔╝  ██╔══██╗██║   ██║                                     ║
+║                       ██║        ██║   ██║  ██║██║   ██║                                     ║
+║                       ╚═╝        ╚═╝   ╚═╝  ╚═╝╚═╝   ╚═╝                                     ║
+║                                                                                              ║
+║                          Python Risk Identification Tool                                     ║
+║                                Interactive Shell                                             ║
+║                                                                                              ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════╣
+║                                                                                              ║
+║  Commands:                                                                                   ║
+║    • list-scenarios        - See all available scenarios                                     ║
+║    • list-initializers     - See all available initializers                                  ║
+║    • run <scenario> [opts] - Execute a security scenario                                     ║
+║    • scenario-history      - View your session history                                       ║
+║    • print-scenario [N]    - Display detailed results                                        ║
+║    • help [command]        - Get help on any command                                         ║
+║    • exit                  - Quit the shell                                                  ║
+║                                                                                              ║
+║  Quick Start:                                                                                ║
+║    pyrit> list-scenarios                                                                     ║
+║    pyrit> run foundry_scenario --initializers openai_objective_target load_default_datasets  ║
+║                                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════╝
+
+pyrit> 
+pyrit> 
+pyrit> exit
+
+Goodbye!
 ```
 
 
