@@ -22,3 +22,12 @@ Install OS packages:
 ```bash
 sudo apt update
 sudo apt install -y git python3 python3-venv python3-pip
+
+## 2) Clone the Code repo (this git repo)
+Clone the code repository, which contains two Python codes—single_turn_universal.py and multi_turn_universal.py—using the commands below.
+```
+git clone https://github.com/jameslee177/pyrit-redteam.git
+cd pyrit-redteam
+```
+
+## 3) Clone the official PyRIT repo
