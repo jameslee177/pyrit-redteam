@@ -31,3 +31,8 @@ cd pyrit-redteam
 ```
 
 ## 3) Clone the official PyRIT repo
+It is still necessary to clone the official repository for testing, even if PyRIT has already been installed via pip, because the code relies on the official templates provided in the PyRIT repository.
+```
+git clone https://github.com/jameslee177/pyrit-redteam.git
+cd pyrit-redteam
+```
