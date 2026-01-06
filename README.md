@@ -19,10 +19,10 @@ This repo contains two interactive Python codes that run AI red teaming tests us
 
 Install OS packages:
 
-```bash
+```
 sudo apt update
 sudo apt install -y git python3 python3-venv python3-pip
-
+```
 ## 2) Clone the Code repo (this git repo)
 Clone the code repository, which contains two Python codes—single_turn_universal.py and multi_turn_universal.py—using the commands below.
 ```
