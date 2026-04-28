@@ -270,11 +270,11 @@ async def run_attack():
 
     print("\n--- ⚖️ Setup Scoring (The Judge) ---")
     use_same = input("Use the same LLM for Judging? (y/n) [Default: y]: ").strip().lower()
-    if use_same != "n":
-        print("Warning: SelfAskTrueFalseScorer requires JSON support. If scoring fails, choose 'n' and configure a SCORER model like gpt-4o-mini or gpt-4o.")
-        scorer_llm = target_llm
-    else:
-        scorer_llm = setup_universal_target("SCORER")
+    print("\n--- ⚖️ Setup Scoring (The Judge) ---")
+    print("SelfAskTrueFalseScorer requires JSON response support.")
+    print("Please configure a separate SCORER model such as gpt-4o-mini or gpt-4o.")
+
+    scorer_llm = setup_universal_target("SCORER")
 
     rubric_path = pathlib.Path("custom_harmful.yaml")
     with open(rubric_path, "w", encoding="utf-8") as f:
